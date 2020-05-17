@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./App.scss";
-import Formulario from "./Formulario/Formulario";
-import ListDone from "./ListDone/ListDone";
-import ListDo from "./ListDo/ListDo";
-import ListEliminated from "./ListEliminated/ListEliminated";
-import CopyLeft from "./Copyleft"
+import Formulario from "./components/Formulario/Formulario";
+import ListDone from "./components/ListDone/ListDone";
+import ListDo from "./components/ListDo/ListDo";
+import ListEliminated from "./components/ListEliminated/ListEliminated";
+import CopyLeft from "./components/Copyleft"
 
 //MATERIAL COMPONENTS
 import {
