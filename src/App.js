@@ -21,17 +21,17 @@ class App extends Component {
     this.state = {
       items: [
         {
-          task: "cocinar",
+          task: "Compras",
           active: true,
           deleted: false,
         },
         {
-          task: "Planchar",
+          task: "Terminar informe",
           active: true,
           deleted: false,
         },
         {
-          task: "Ordernar",
+          task: "Retirar pedidos",
           active: true,
           deleted: false,
         },
