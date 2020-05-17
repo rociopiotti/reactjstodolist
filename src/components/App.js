@@ -11,8 +11,6 @@ import {
   Container,
   Box,
   Typography,
-  Link,
-  StickyFooter,
 } from "@material-ui/core";
 
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -118,9 +116,8 @@ class App extends Component {
             flexDirection="row"
             alignItems="flex-start"
             justifyContent="flex-start"
-            height="100vw"
             align="left">
-            <Box flexGrow={1} my={15}>
+            <Box my={15}>
               <Typography
                 paragraph
                 align="left"
@@ -157,7 +154,7 @@ class App extends Component {
                 onRemoveAll={this.handleCleanList}
               />
             </Box>
-            <Box color="white" p={1}>
+            <Box p={1}>
               <CopyLeft />
             </Box>
           </Container>
